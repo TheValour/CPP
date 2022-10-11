@@ -22,7 +22,13 @@ int main(){
 	cout<<rage<<endl;
 	}
 
-
+	// initilaztion string and char 
+	char ch{'a'};
+	string st{"hello"};
+	cout<<endl<<st;
+	cout<<endl<<ch;
+	
+	
 	int a=33.44;
 	cout<<a;
 

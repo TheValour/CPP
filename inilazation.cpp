@@ -32,14 +32,16 @@ int main(){
 	{
 	
 		// floating value
-		float f=234.324f;        // size is  4 byte
-		double df=2343256.345;    // size is 8 byte
-		long double ld{31446543.324L};   // size is 12 byte
+		float f = 234.324f;               // size is  4 byte
+		double df = 2343256.345;          // size is 8 byte
+		long double ld{31446543.324L};    // size is 12 byte in my PC  but  in most time it is 16 byte
 		
 		cout<<endl<<f;
 		cout<<endl<<df;
 		cout<<endl<<ld;
 	}
+	
+	
 	int a=33.44;
 	cout<<a;
 
